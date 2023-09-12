@@ -10,4 +10,10 @@ class Book extends Model
     use HasFactory;
 
     protected $primarykey = 'book_id';
+
+    protected $fillable = [
+        'author',
+        'title',
+        'pieces',
+    ];
 }
