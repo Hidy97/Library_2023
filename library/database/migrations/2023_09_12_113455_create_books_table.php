@@ -20,8 +20,8 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        Book::create(['book_id' => 1, 'author' => 'Kis Léda', 'title' => 'Léda Világa']);
-        Book::create(['book_id' => 2, 'author' => 'Bátor Gábor', 'title' => 'Órások Harca']);
+        Book::create(['author' => 'Kis Léda', 'title' => 'Léda Világa']);
+        Book::create(['author' => 'Bátor Gábor', 'title' => 'Órások Harca']);
     }
 
     /**
