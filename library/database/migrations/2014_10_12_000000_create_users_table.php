@@ -22,8 +22,8 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        User::create(['email' => 'vki@gmail.com', 'password' => '123']);
-        User::create(['email' => 'masikember@gmail.com', 'password' => '321']);
+        User::create(['name' => 'Kiss Olivér', 'email' => 'vki@gmail.com', 'password' => '123']);
+        User::create(['name' => 'Tóth Ilona', 'email' => 'masikember@gmail.com', 'password' => '321']);
     }
 
     /**
